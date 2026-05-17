@@ -3,12 +3,12 @@
   const primary = [
     { label: 'About',       href: 'index.html' },
     { label: 'Research',    href: 'research.html' },
-    { label: 'Policy',      href: 'policy.html' },
+    { label: 'Policy analysis', href: 'policy.html' },
     { label: 'Teaching',    href: 'teaching.html' },
     { label: 'CV',          href: 'cv.html' },
   ];
   const secondary = [
-    { label: 'Data Collection', href: 'data.html' },
+    { label: 'Data collection', href: 'data.html' },
     { label: 'Media',           href: 'media.html' },
   ];
 
