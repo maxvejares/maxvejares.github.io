@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 40" fill="none">
+  <!-- Circular mark with Z cutout -->
+  <g transform="translate(0,2)">
+    <circle cx="18" cy="18" r="18" fill="#1a3d1a"/>
+    <path d="M8 10 L28 10 L10 26 L28 26" stroke="#fff" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Leaf/arrow accent -->
+    <path d="M5 18 Q0 8 10 4" stroke="#3a7a3a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="44" y="16" font-family="Manrope, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#1a3d1a" letter-spacing="0.02em">Net Zero</text>
+  <text x="44" y="32" font-family="Manrope, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#1a3d1a" letter-spacing="0.02em">Industrial Policy Lab</text>
+</svg>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chilean History Atlas — Maximiliano Véjares</title>
+  <meta name="description" content="An interactive historical archive of Chilean economic, political, and social data spanning 1840 to 1990. In progress.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23FAFAF7'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='Spectral,Georgia,serif' font-weight='700' font-size='30' fill='%237A1E2B'%3EMV%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,700;1,400&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/site.css">
+  <style>
+    .skip-link { position:absolute; left:-9999px; }
+    .skip-link:focus { left:16px; top:8px; background:var(--ink); color:var(--paper); padding:6px 12px; z-index:1000; }
+    .atlas-preview {
+      max-width: var(--max-w); margin: 0 auto;
+      padding: 0 var(--gutter) 64px;
+    }
+    .atlas-preview figure { margin: 0 0 32px; }
+    .atlas-preview img {
+      width: 100%; height: auto; display: block;
+      border: 1px solid var(--rule);
+    }
+    .atlas-preview figcaption {
+      font-family: var(--serif); font-size: 12.5px; line-height: 1.5;
+      color: var(--ink-muted); margin-top: 8px;
+    }
+    .atlas-status {
+      display: inline-block;
+      font-family: var(--sans); font-size: 11px; font-weight: 600;
+      letter-spacing: 0.08em; text-transform: uppercase;
+      padding: 4px 12px;
+      background: var(--accent); color: var(--paper);
+      margin-bottom: 24px;
+    }
+  </style>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="inner">
+      <a class="mark" href="index.html">Maximiliano Véjares</a>
+      <button class="menu-toggle" aria-label="Menu" onclick="document.querySelector('.site-header nav').classList.toggle('is-open')">
+        <span></span><span></span><span></span>
+      </button>
+      <nav aria-label="Primary">
+        <a href="index.html">About</a>
+        <a href="research.html">Research</a>
+        <a href="policy.html">Policy Analysis</a>
+        <a href="data.html">Data</a>
+        <a href="atlas.html" class="is-active">Chilean History Atlas</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="media.html">In the media</a>
+        <a href="cv.html">CV</a>
+        <a href="es/index.html" class="lang-toggle">Español</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <div class="page-hero">
+      <h1>Chilean History Atlas</h1>
+    </div>
+
+    <div class="content-section" style="padding-bottom: 24px;">
+      <span class="atlas-status">In Development</span>
+      <p class="about-text" style="max-width:65ch;">An interactive data explorer for Chilean subnational history, currently under construction. The platform will present time series and choropleth maps at the national, provincial, and departmental scales, drawn from censuses, budgets, and other primary sources. A public release will follow once the underlying panel and the cartographic boundaries are stable.</p>
+    </div>
+
+    <div class="atlas-preview">
+      <figure>
+        <img src="img/atlas-landing.png" alt="Screenshot of the Chilean History Atlas in development">
+        <figcaption>Preview of the Atlas interface. Subnational time series at three geographic scales.</figcaption>
+      </figure>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="inner">
+      <div>
+        <div class="footer-name">Maximiliano Véjares</div>
+        <div>Research Fellow, Net Zero Industrial Policy Lab</div>
+        <div>Johns Hopkins University</div>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:maxvejares@jhu.edu">maxvejares@jhu.edu</a>
+        <a href="https://scholar.google.com/citations?user=TDudFlcAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+        <a href="https://www.linkedin.com/in/maxvejares/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
