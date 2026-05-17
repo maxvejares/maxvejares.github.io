@@ -21,7 +21,7 @@
 }
 .site-header .mark:hover { color: var(--accent); }
 
-.site-header nav { display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end; }
+.site-header nav { display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end; align-items: center; }
 .site-header nav a {
   text-decoration: none; color: var(--ink-muted);
   font-size: 13px; letter-spacing: 0.01em;
