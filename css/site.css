@@ -198,8 +198,8 @@
   content: '+';
   position: absolute; right: 0; top: 50%;
   transform: translateY(-50%);
-  font-family: var(--sans); font-weight: 400;
-  font-size: 18px; color: var(--ink-muted);
+  font-family: var(--sans); font-weight: 500;
+  font-size: 24px; color: var(--ink);
   transition: transform 0.2s;
 }
 .research-item.is-open h3::after {
