@@ -174,7 +174,7 @@
 
 .section-label {
   font-family: var(--serif); font-weight: 700;
-  font-size: 26px; letter-spacing: -0.005em; color: var(--ink);
+  font-size: 26px; letter-spacing: -0.005em; color: var(--accent);
   margin-bottom: 20px;
 }
 .section-sublabel {
