@@ -8,7 +8,7 @@
     { label: 'CV',           href: 'cv.html' },
   ];
   const secondary = [
-    { label: 'Atlas Histórico de Chile', href: 'data.html' },
+    { label: 'Atlas Histórico', href: 'data.html' },
     { label: 'Medios',       href: 'media.html' },
   ];
 

@@ -8,7 +8,7 @@
     { label: 'CV',          href: 'cv.html' },
   ];
   const secondary = [
-    { label: 'Chile Historical Atlas', href: 'data.html' },
+    { label: 'Historical Atlas', href: 'data.html' },
     { label: 'Media',           href: 'media.html' },
   ];
 
