@@ -20,9 +20,9 @@
   --accent-muted: #B8696F;
   --accent-soft:  #F5EFE6;
 
-  /* Type — Spectral for body + Fraunces for display accents + Manrope for UI */
+  /* Type — Spectral for body + display + Manrope for UI */
   --serif:        'Spectral', Georgia, 'Times New Roman', serif;
-  --display:      'Fraunces', 'Spectral', Georgia, 'Times New Roman', serif;
+  --display:      'Spectral', Georgia, 'Times New Roman', serif;
   --sans:         'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
   --mono:         'IBM Plex Mono', 'SF Mono', Menlo, Consolas, monospace;
 
